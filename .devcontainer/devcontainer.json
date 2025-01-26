@@ -7,6 +7,21 @@
 		"context": "..",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "../Dockerfile"
+	},
+	"features": {
+		"ghcr.io/azure/azure-dev/azd:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"demystifying-javascript.python-extensions-pack",
+				"formulahendry.docker-explorer",
+				"formulahendry.docker-extension-pack",
+				"george3447.docker-run",
+				"ms-vscode.azure-account",
+				"ms-vscode.azurecli"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
